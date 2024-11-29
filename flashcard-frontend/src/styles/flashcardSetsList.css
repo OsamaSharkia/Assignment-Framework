@@ -1,0 +1,81 @@
+/* Flashcard set container */
+.flashcard-set-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: linear-gradient(to bottom right, #1c1c1e, #333333);
+  border-radius: 25px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Card styling and hover effect */
+.flashcard-set-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 1);
+}
+
+/* Flashcard set title */
+.flashcard-set-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #ff5e57, #ff8e00);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: transform 0.4s ease, text-shadow 0.4s ease, background 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flashcard-set-title:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 12px rgba(255, 94, 87, 0.6), 0 0 8px rgba(255, 142, 0, 0.4);
+  background: linear-gradient(135deg, #ff8e00, #ff5e57);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Edit and Delete buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.edit-button, .delete-button {
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.edit-button {
+  background: #ffa726; /* Orange color */
+  color: #1c1c1e;
+}
+
+.edit-button:hover {
+  background: #ff8f00; /* Darker orange */
+  box-shadow: 0 6px 12px rgba(255, 165, 0, 0.6);
+  transform: scale(1.05);
+}
+
+.delete-button {
+  background: #e53935; /* Red color */
+  color: #ffffff;
+}
+
+.delete-button:hover {
+  background: #d32f2f; /* Darker red */
+  box-shadow: 0 6px 12px rgba(229, 57, 53, 0.6);
+  transform: scale(1.05);
+}

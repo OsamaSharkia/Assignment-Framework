@@ -1,0 +1,74 @@
+/* src/styles/createUserForm.css */
+
+.create-user-form {
+  background: linear-gradient(to right, #1c1c1e, #333333);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-user-form:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.8);
+}
+
+.form-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f0db4f; /* Bright yellow accent */
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  color: #f0f0f0;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-input {
+  width: 90%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #555;
+  background: #333;
+  color: #fff;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border: 1px solid #f0db4f; /* Yellow accent for focus */
+  box-shadow: 0 0 8px #f0db4f;
+}
+
+.form-submit-button {
+  background: linear-gradient(to right, #f0db4f, #ffd700);
+  border: none;
+  border-radius: 12px;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.form-submit-button:hover {
+  background: linear-gradient(to right, #ffd700, #f0db4f);
+  transform: translateY(-3px);
+}
+
+.form-submit-button:active {
+  transform: translateY(1px);
+}

@@ -1,0 +1,63 @@
+.update-flashcard-set-form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #f0f0f0;
+  }
+  
+  .card-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 8px;
+  }
+  
+  .update-flashcard-set-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .update-flashcard-set-form input,
+  .update-flashcard-set-form select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #444;
+  }
+  
+  .update-button,
+  .remove-card-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-button:hover {
+    background-color: #e67e22;
+  }
+  
+  .remove-card-button {
+    background-color: #e74c3c;
+  }
+  
+  .remove-card-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .add-card-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-card-button:hover {
+    background-color: #27ae60;
+  }
+  

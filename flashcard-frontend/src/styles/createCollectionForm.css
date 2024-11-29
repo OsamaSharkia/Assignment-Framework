@@ -1,0 +1,131 @@
+/* General Container Styling */
+.create-collection-container {
+  background: #20232a;
+  color: #fff;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 15px;
+  width: 95%;
+  max-width: 700px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.create-collection-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px rgba(255, 221, 87, 0.8);
+}
+
+/* Header Styling */
+.header-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-icon {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.header-section h2 {
+  font-size: 2em;
+  color: #ffdd57;
+}
+
+.header-section p {
+  font-size: 1.1em;
+  color: #ddd;
+}
+
+/* Form Styling */
+.create-collection-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Sections */
+.form-section {
+  margin-bottom: 25px;
+}
+
+.form-section label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #ffdd57;
+}
+
+.create-collection-form input,
+.create-collection-form textarea {
+  padding: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  color: #ffdd57;
+  font-size: 1em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.create-collection-form input:focus,
+.create-collection-form textarea:focus {
+  box-shadow: 0 4px 20px rgba(255, 221, 87, 0.8);
+  background-color: #444;
+}
+
+/* Flashcard Set Selection Styling */
+.flashcard-set-selection {
+  padding: 15px;
+  border: 1px solid #555;
+  border-radius: 10px;
+}
+
+.flashcard-set-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.flashcard-set-card {
+  background: #2a2e35;
+  color: #ffdd57;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: calc(50% - 10px);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.flashcard-set-card.selected {
+  background: #ffdd57;
+  color: #20232a;
+  box-shadow: 0 8px 20px rgba(255, 221, 87, 0.9);
+}
+
+.flashcard-set-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(255, 170, 0, 0.9);
+}
+
+/* Button Styling */
+.create-collection-button {
+  padding: 15px;
+  font-size: 1.2rem;
+  background: linear-gradient(135deg, #ffdd57, #f9a602);
+  color: #222;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.3s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 15px rgba(255, 221, 87, 0.6);
+}
+
+.create-collection-button:hover {
+  background: linear-gradient(135deg, #ffc107, #f57c00);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(255, 170, 0, 0.8);
+}

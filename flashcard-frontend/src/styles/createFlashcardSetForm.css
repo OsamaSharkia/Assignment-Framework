@@ -1,0 +1,95 @@
+.create-flashcard-set-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #252525, #1a1a1a);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
+  animation: slideIn 1s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffcc00;
+  margin-bottom: 1rem;
+  animation: pulse 1.5s infinite;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #ffcc00;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: #333;
+  color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus, select:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ffcc00;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #ffcc00;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+  background: #ffd700;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(255, 215, 0, 0.5);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    color: #ffcc00;
+  }
+  50% {
+    color: #ffeb3b;
+  }
+}

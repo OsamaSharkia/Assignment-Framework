@@ -1,0 +1,31 @@
+.create-flashcard-form {
+    background-color: black;
+    padding: 20px;
+    color: yellow;
+    margin-bottom: 20px;
+  }
+  
+  .create-flashcard-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .create-flashcard-form input,
+  .create-flashcard-form textarea {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .create-flashcard-form button {
+    background-color: red;
+    color: yellow;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .create-flashcard-form button:hover {
+    background-color: yellow;
+    color: black;
+  }
+  

@@ -1,0 +1,65 @@
+.users-list-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.users-title {
+  color: #f7c843;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.users-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c2c2c;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.user-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-name {
+  color: #fff;
+  font-size: 18px;
+  margin-right: auto; /* Allows the delete button to stick to the right */
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  position: relative;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 1px 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  margin-left: 300px;
+  top: -10px; /* Provides space between the button and the username */
+}
+
+.delete-button:hover {
+  background-color: #ff2e2e;
+  transform: translateY(-2px);
+}
+
+.delete-button:focus {
+  outline: none;
+}
